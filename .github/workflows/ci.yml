@@ -13,7 +13,7 @@ jobs:
     if: github.repository_owner == 'helenhuang-eng'
     runs-on: [self-hosted, Linux, X64]
     
-    # for ci telos onl
+    # for ci telos only
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
